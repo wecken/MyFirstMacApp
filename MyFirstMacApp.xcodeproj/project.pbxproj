@@ -12,6 +12,7 @@
 		FB11CA262535A66100D1F7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB11CA252535A66100D1F7D1 /* Assets.xcassets */; };
 		FB11CA292535A66100D1F7D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB11CA282535A66100D1F7D1 /* Preview Assets.xcassets */; };
 		FB11CA2C2535A66100D1F7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB11CA2A2535A66100D1F7D1 /* Main.storyboard */; };
+		FB11CA362535A95F00D1F7D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB11CA352535A95F00D1F7D1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FB11CA2B2535A66100D1F7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB11CA2D2535A66100D1F7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB11CA2E2535A66100D1F7D1 /* MyFirstMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFirstMacApp.entitlements; sourceTree = "<group>"; };
+		FB11CA352535A95F00D1F7D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				FB11CA212535A65F00D1F7D1 /* AppDelegate.swift */,
+				FB11CA352535A95F00D1F7D1 /* ViewController.swift */,
 				FB11CA232535A65F00D1F7D1 /* ContentView.swift */,
 				FB11CA252535A66100D1F7D1 /* Assets.xcassets */,
 				FB11CA2A2535A66100D1F7D1 /* Main.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB11CA362535A95F00D1F7D1 /* ViewController.swift in Sources */,
 				FB11CA242535A65F00D1F7D1 /* ContentView.swift in Sources */,
 				FB11CA222535A65F00D1F7D1 /* AppDelegate.swift in Sources */,
 			);
